@@ -1,1 +1,16 @@
 # Empty CSS file for your own CSS
+a {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:focus {
+    color: white;
+}
+a:active {
+    color: white;
+}

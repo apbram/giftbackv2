@@ -1,8 +1,7 @@
-# Empty CSS file for your own CSS
 a {
     color: black;
 }
-a:visited {
+/* a:visited {
     color: black;
 }
 a:hover {
@@ -13,7 +12,7 @@ a:focus {
 }
 a:active {
     color: black;
-}
+} */
 #Stars
 fieldset, label { margin: 0; padding: 0; }
 body{ margin: 20px; }

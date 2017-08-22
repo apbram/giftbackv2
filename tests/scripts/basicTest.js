@@ -16,7 +16,7 @@ module.exports = {
         function(){}, 'Waiting for page to load')
       .waitForElementPresent('#givefeedback', 60000)
       .click('#givefeedback')
-      .waitForElementVisible('.media-object') //check if class that contains image will display
+      .waitForElementVisible('.media-object', 60000) //check if class that contains image will display
       .pause(10000)
       .end();
   }

@@ -1,19 +1,7 @@
-# Empty CSS file for your own CSS
 a {
-    color: white;
-}
-a:visited {
     color: black;
 }
-a:hover {
-    color: white;
-}
-a:focus {
-    color: white;
-}
-a:active {
-    color: white;
-}
+
 #Stars
 fieldset, label { margin: 0; padding: 0; }
 body{ margin: 20px; }

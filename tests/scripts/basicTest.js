@@ -15,7 +15,7 @@ module.exports = {
       .waitForElementVisible('.container-fluid', 60000, true,
         function(){}, 'Waiting for page to load')
       .waitForElementPresent('#givefeedback', 60000)
-      .onClick('#givefeedback')
+      .click('#givefeedback')
       .waitForElementVisible('.media-object') //check if class that contains image will display
       .pause(1000)
       .end();

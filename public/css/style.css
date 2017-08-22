@@ -1,18 +1,7 @@
 a {
     color: black;
 }
-/* a:visited {
-    color: black;
-}
-a:hover {
-    color: black;
-}
-a:focus {
-    color: black;
-}
-a:active {
-    color: black;
-} */
+
 #Stars
 fieldset, label { margin: 0; padding: 0; }
 body{ margin: 20px; }

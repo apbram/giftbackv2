@@ -12,12 +12,12 @@ module.exports = {
   'Demo test for Gift Back' : function (browser) {
     browser
       .url('http://giftback-test.mybluemix.net')
-      .waitForElementVisible('.container-fluid', 60000, true,
+      .waitForElementVisible('body', 60000, true,
         function(){}, 'Waiting for page to load')
       .waitForElementPresent('#givefeedback', 60000)
       .click('#givefeedback')
       .waitForElementVisible('.media-object') //check if class that contains image will display
-      .pause(1000)
+      .pause(10000)
       .end();
   }
 };
